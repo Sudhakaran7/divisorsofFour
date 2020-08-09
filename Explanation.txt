@@ -1,0 +1,57 @@
+Given an integer array nums, return the sum of divisors of the integers in that array that have exactly four divisors.
+If there is no such integer in the array, return 0.
+
+Input Description:
+First line contains n, size of array
+Second line contains n elements fo array
+
+Output Description:
+Print the sum of divisors of the integers in that array that have exactly four divisors
+
+Sample Input:
+3
+21 4 7
+
+Sample Output:
+32
+
+Explanation:
+21 has 4 divisors: 1, 3, 7, 21
+4 has 3 divisors: 1, 2, 4
+7 has 2 divisors: 1, 7
+The answer is the sum of divisors of 21 only.
+
+Sample Input:
+5
+21 3 5 8 9
+
+Sample Output:
+47
+
+Sample Input:
+4
+2 8 12 5
+
+Sample Output:
+15
+
+Sample Input:
+6
+12 65 34 89 33 11
+
+Sample Output:
+186
+
+Sample Input:
+2
+88 188
+
+Sample Output:
+0
+
+Sample Input:
+3
+4 99 100
+
+Sample Output:
+0
